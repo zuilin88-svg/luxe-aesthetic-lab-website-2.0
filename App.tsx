@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import Header from './components/Layout/Header';
 import Footer from './components/Layout/Footer';
 import Home from './pages/Home';
@@ -19,9 +19,25 @@ const ScrollToTop = () => {
   return null;
 };
 
+const RedirectHandler = () => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    // Handle 404.html redirect for static hosting
+    const redirect = sessionStorage.getItem('redirect');
+    if (redirect) {
+      sessionStorage.removeItem('redirect');
+      navigate(redirect);
+    }
+  }, [navigate]);
+
+  return null;
+};
+
 function App() {
   return (
     <Router>
+      <RedirectHandler />
       <ScrollToTop />
       <div className="flex flex-col min-h-screen font-sans text-stone-800 bg-stone-50">
         <Header />
