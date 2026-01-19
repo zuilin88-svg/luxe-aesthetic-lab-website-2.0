@@ -19,6 +19,7 @@ dist-ssr
 
 # Cursor / IDE state
 .cursor/
+.claude/
 
 # Editor directories and files
 .vscode/*
