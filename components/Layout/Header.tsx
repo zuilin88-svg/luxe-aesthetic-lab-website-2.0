@@ -103,17 +103,9 @@ const Header: React.FC = () => {
 
       {/* Mobile Navigation Overlay - Rendered outside header for proper positioning */}
       <div
-        className={`fixed inset-0 bg-stone-50 z-40 transform transition-transform duration-300 ease-in-out md:hidden ${
+        className={`fixed inset-0 h-screen bg-stone-50 z-40 transform transition-transform duration-300 ease-in-out md:hidden ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
-        style={{
-          height: '100vh',
-          height: '100dvh', // Use dynamic viewport height for mobile browsers
-          top: 0,
-          left: 0,
-          right: 0,
-          bottom: 0
-        }}
       >
         <div className="flex flex-col justify-center items-center h-full w-full">
           <nav className="flex flex-col space-y-8 text-center">
