@@ -29,7 +29,7 @@ export const SERVICES: Service[] = [
     price: "$265",
     category: "facial",
     // Image: Golden aesthetic / Luxury facial
-    image: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&q=80&w=1200",
+    image: "/images/24k-gold-mask.png",
     shortDescription: "A luxury-curated, multi-step rejuvenating facial designed to restore radiance, vitality, and overall skin balance.",
     details: {
       duration: "90 Minutes",
@@ -45,7 +45,7 @@ export const SERVICES: Service[] = [
     price: "$195",
     category: "facial",
     // Image: Esthetician analyzing skin / Clean facial
-    image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=1200",
+    image: "/images/customizing-facial.png",
     shortDescription: "A Smart Skin Reset Facial for All Skin Types.",
     details: {
       duration: "80 Minutes",
@@ -61,7 +61,7 @@ export const SERVICES: Service[] = [
     price: "$150",
     category: "facial",
     // Image: Fresh, clear skin / Water elements
-    image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&q=80&w=1200",
+    image: "/images/glow-detox.png",
     shortDescription: "Deep Cleansing & Pore Detox Treatment.",
     details: {
       duration: "65 Minutes",
@@ -76,7 +76,7 @@ export const SERVICES: Service[] = [
     price: "From $275",
     category: "specialty",
     // Image: Texture / Science of skin
-    image: "https://images.unsplash.com/photo-1552693673-1bf958298935?auto=format&fit=crop&q=80&w=1200",
+    image: "/images/dmk-skin-revision.png",
     shortDescription: "A professional, corrective facial that rebuilds, restores, and strengthens your skin at a cellular level.",
     details: {
       fullDescription: [
@@ -90,7 +90,7 @@ export const SERVICES: Service[] = [
     price: "$550",
     category: "brows",
     // Image: Brow focus
-    image: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&q=80&w=1200",
+    image: "/images/ombre-brow-microblading.png",
     shortDescription: "Wake up with perfect brows every day. Semi-permanent solutions tailored to you.",
     details: {
       fullDescription: ["Wake up with perfect brows every day. Our semi-permanent solutions are designed to enhance your natural shape, offering realistic, long-lasting results tailored to your bone structure and preferences."],
@@ -102,7 +102,7 @@ export const SERVICES: Service[] = [
     price: "Various",
     category: "addon",
     // Image: Spa tools / LED
-    image: "https://images.unsplash.com/photo-1498842812179-c81beecf902c?auto=format&fit=crop&q=80&w=1200",
+    image: "/images/add-ons.png",
     shortDescription: "Elevate your facial experience with Celluma LED, Microcurrent, or Dermaplaning.",
     details: {
       fullDescription: ["Enhance your treatment with specialized add-ons."],
