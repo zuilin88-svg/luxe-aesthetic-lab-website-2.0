@@ -21,7 +21,7 @@ const Home: React.FC = () => {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://raw.githubusercontent.com/zuilin88-svg/luxe-aesthetic-lab-website/6e89beaa2e00699eb608b53f31c2c2382042c213/components/Layout/Hero%20Section.png"
+            src="https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&q=80&w=1600"
             alt="Luxe Aesthetic Lab Spa Interior" 
             className="w-full h-full object-cover"
           />

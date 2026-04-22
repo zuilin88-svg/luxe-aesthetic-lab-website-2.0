@@ -73,8 +73,9 @@ const ServiceDetail: React.FC = () => {
            <div className="space-y-6">
              {/* Intro Level */}
              <div className="bg-white p-8 rounded-sm border-l-4 border-stone-200 hover:border-gold-400 transition-colors shadow-sm">
-                <div className="flex justify-between items-baseline mb-2">
-                  <h3 className="font-serif text-2xl text-stone-900">Intro Level</h3>
+                <div className="flex justify-between items-baseline mb-2 gap-4">
+                  <h3 className="font-serif text-2xl text-stone-900">Introduction Level</h3>
+                  <span className="text-gold-600 font-serif text-xl whitespace-nowrap">$275</span>
                 </div>
                 <p className="text-stone-600 text-sm leading-relaxed">
                   The perfect introduction to DMK Enzyme Therapy. Focuses on kickstarting the skin's enzymatic activity for visible revitalization.
@@ -83,8 +84,9 @@ const ServiceDetail: React.FC = () => {
 
              {/* Advanced Level */}
              <div className="bg-white p-8 rounded-sm border-l-4 border-stone-300 hover:border-gold-500 transition-colors shadow-sm">
-                <div className="flex justify-between items-baseline mb-2">
+                <div className="flex justify-between items-baseline mb-2 gap-4">
                   <h3 className="font-serif text-2xl text-stone-900">Advanced Level</h3>
+                  <span className="text-gold-600 font-serif text-xl whitespace-nowrap">$315</span>
                 </div>
                 <p className="text-stone-600 text-sm leading-relaxed">
                   For established clients. Incorporates more targeted exfoliation and deeper muscle banding for enhanced lifting and firming results.
@@ -93,8 +95,9 @@ const ServiceDetail: React.FC = () => {
 
              {/* Elite Level */}
              <div className="bg-stone-900 p-8 rounded-sm border-l-4 border-gold-500 text-white shadow-lg">
-                <div className="flex justify-between items-baseline mb-2">
+                <div className="flex justify-between items-baseline mb-2 gap-4">
                   <h3 className="font-serif text-2xl text-gold-200">Elite Level</h3>
+                  <span className="text-gold-200 font-serif text-xl whitespace-nowrap">$350</span>
                 </div>
                 <p className="text-stone-300 text-sm leading-relaxed">
                   Our premier treatment. Fully customized with multiple exfoliants and advanced protocols for maximum skin revision and dramatic results.

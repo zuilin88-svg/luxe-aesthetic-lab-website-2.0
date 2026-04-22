@@ -18,7 +18,7 @@ const About: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center mb-24">
           <div>
             <img 
-              src="https://raw.githubusercontent.com/zuilin88-svg/luxe-aesthetic-lab-website/6e89beaa2e00699eb608b53f31c2c2382042c213/components/Layout/About%20US%20page.png" 
+              src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&q=80&w=1200" 
               alt="Luxe Aesthetic Lab Treatment Room" 
               className="w-full h-auto rounded-sm shadow-md"
             />
