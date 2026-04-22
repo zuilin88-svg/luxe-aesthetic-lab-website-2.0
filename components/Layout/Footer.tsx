@@ -44,13 +44,18 @@ const Footer: React.FC = () => {
           {/* Hours Column */}
           <div className="space-y-4">
             <h3 className="font-serif text-lg text-gold-400">Hours</h3>
-            <div className="grid grid-cols-2 gap-2 text-sm text-stone-300">
+            <div className="grid grid-cols-2 gap-2 text-sm text-stone-300 mb-6">
               {CONTACT_INFO.hours.map((item) => (
                 <React.Fragment key={item.day}>
                   <span>{item.day}</span>
                   <span className="text-right">{item.time}</span>
                 </React.Fragment>
               ))}
+            </div>
+            <div className="space-y-2 text-sm">
+              <Link to="/facial-spa-east-meadow" className="block text-stone-300 hover:text-white transition-colors">Facial Spa in East Meadow</Link>
+              <Link to="/skin-care-spa-long-island" className="block text-stone-300 hover:text-white transition-colors">Skin Care Spa on Long Island</Link>
+              <Link to="/dmk-enzyme-therapy-east-meadow" className="block text-stone-300 hover:text-white transition-colors">DMK Enzyme Therapy East Meadow</Link>
             </div>
           </div>
 

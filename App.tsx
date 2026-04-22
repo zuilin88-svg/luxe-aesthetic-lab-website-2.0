@@ -8,6 +8,9 @@ import Services from './pages/Services';
 import ServiceDetail from './pages/ServiceDetail';
 import Testimonials from './pages/Testimonials';
 import FAQ from './pages/FAQ';
+import FacialSpaEastMeadow from './pages/FacialSpaEastMeadow';
+import SkinCareSpaLongIsland from './pages/SkinCareSpaLongIsland';
+import DmkEnzymeTherapyEastMeadow from './pages/DmkEnzymeTherapyEastMeadow';
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -47,6 +50,9 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
             <Route path="/services/:id" element={<ServiceDetail />} />
+            <Route path="/facial-spa-east-meadow" element={<FacialSpaEastMeadow />} />
+            <Route path="/skin-care-spa-long-island" element={<SkinCareSpaLongIsland />} />
+            <Route path="/dmk-enzyme-therapy-east-meadow" element={<DmkEnzymeTherapyEastMeadow />} />
             <Route path="/testimonials" element={<Testimonials />} />
             <Route path="/faq" element={<FAQ />} />
           </Routes>

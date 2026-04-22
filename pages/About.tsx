@@ -1,9 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Seo from '../components/Seo';
 
 const About: React.FC = () => {
   return (
     <main className="pt-24 pb-20">
+      <Seo
+        title="About Our East Meadow Skin Care Spa | Luxe Aesthetic Lab"
+        description="Learn about Luxe Aesthetic Lab, a luxury skin care spa in East Meadow, NY focused on customized facials, DMK enzyme therapy, and corrective skin treatments."
+        canonical="https://www.luxeaestheticlab.com/about"
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}

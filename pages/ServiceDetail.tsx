@@ -94,12 +94,12 @@ const ServiceDetail: React.FC = () => {
              </div>
 
              {/* Elite Level */}
-             <div className="bg-stone-900 p-8 rounded-sm border-l-4 border-gold-500 text-white shadow-lg">
+             <div className="bg-white p-8 rounded-sm border-l-4 border-stone-300 hover:border-gold-500 transition-colors shadow-sm">
                 <div className="flex justify-between items-baseline mb-2 gap-4">
-                  <h3 className="font-serif text-2xl text-gold-200">Elite Level</h3>
-                  <span className="text-gold-200 font-serif text-xl whitespace-nowrap">$350</span>
+                  <h3 className="font-serif text-2xl text-stone-900">Elite Level</h3>
+                  <span className="text-gold-600 font-serif text-xl whitespace-nowrap">$350</span>
                 </div>
-                <p className="text-stone-300 text-sm leading-relaxed">
+                <p className="text-stone-600 text-sm leading-relaxed">
                   Our premier treatment. Fully customized with multiple exfoliants and advanced protocols for maximum skin revision and dramatic results.
                 </p>
              </div>

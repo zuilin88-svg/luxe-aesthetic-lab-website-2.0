@@ -6,4 +6,4 @@ Allow: /
 # Disallow: /admin/
 
 # Sitemap location
-Sitemap: https://luxeaestheticlab.com/sitemap.xml
+Sitemap: https://www.luxeaestheticlab.com/sitemap.xml

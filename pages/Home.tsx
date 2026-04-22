@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { SERVICES, REVIEWS } from '../constants';
 import { Star, ChevronRight, Quote } from 'lucide-react';
+import Seo from '../components/Seo';
 
 const Home: React.FC = () => {
   const [activeReviewIndex, setActiveReviewIndex] = useState(0);
@@ -16,6 +17,12 @@ const Home: React.FC = () => {
 
   return (
     <main>
+      <Seo
+        title="Facial Spa in East Meadow, NY | Luxe Aesthetic Lab"
+        description="Luxe Aesthetic Lab is a luxury facial spa in East Meadow, NY offering customized facials, DMK enzyme therapy, glow detox treatments, and advanced skin care for Long Island clients."
+        canonical="https://www.luxeaestheticlab.com/"
+      />
+
       {/* Hero Section */}
       <section className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
         {/* Background Image with Overlay */}
@@ -82,6 +89,32 @@ const Home: React.FC = () => {
                 Get in touch <ChevronRight size={16} className="ml-2" />
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-white border-t border-stone-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl">
+            <h2 className="font-serif text-4xl text-stone-800 mb-6">Serving East Meadow and Long Island</h2>
+            <p className="text-stone-600 leading-relaxed mb-8 font-light text-lg">
+              Luxe Aesthetic Lab helps clients searching for a facial spa near East Meadow, a skin care spa on Long Island,
+              or advanced DMK enzyme therapy with a personalized treatment approach.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Link to="/facial-spa-east-meadow" className="border border-stone-200 p-8 hover:border-gold-500 hover:shadow-sm transition-all">
+              <h3 className="font-serif text-2xl text-stone-900 mb-3">Facial Spa in East Meadow</h3>
+              <p className="text-stone-600 font-light">Learn about facial treatments, skin goals we treat, and why clients nearby choose Luxe Aesthetic Lab.</p>
+            </Link>
+            <Link to="/skin-care-spa-long-island" className="border border-stone-200 p-8 hover:border-gold-500 hover:shadow-sm transition-all">
+              <h3 className="font-serif text-2xl text-stone-900 mb-3">Skin Care Spa on Long Island</h3>
+              <p className="text-stone-600 font-light">A location-focused page for Long Island clients searching for luxury skin care and facial services.</p>
+            </Link>
+            <Link to="/dmk-enzyme-therapy-east-meadow" className="border border-stone-200 p-8 hover:border-gold-500 hover:shadow-sm transition-all">
+              <h3 className="font-serif text-2xl text-stone-900 mb-3">DMK Enzyme Therapy</h3>
+              <p className="text-stone-600 font-light">Explore DMK skin revision options for acne, congestion, pigmentation, texture, and age-management support.</p>
+            </Link>
           </div>
         </div>
       </section>
