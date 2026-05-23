@@ -4,7 +4,7 @@ export const SOCIAL_LINKS = {
   instagram: "https://www.instagram.com/luxeaestheticlab",
   tiktok: "https://www.tiktok.com/@luxeaestheticlab",
   facebook: "https://www.facebook.com/profile.php?id=100054359885549",
-  vagaro: "https://www.vagaro.com/luxeaestheticlab",
+  vagaro: "https://www.vagaro.com/luxeaestheticlab/services",
 };
 
 export const CONTACT_INFO = {

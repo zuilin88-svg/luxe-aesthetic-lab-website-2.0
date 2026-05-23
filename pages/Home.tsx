@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { SERVICES, REVIEWS } from '../constants';
+import { SERVICES, REVIEWS, SOCIAL_LINKS } from '../constants';
 import { Star, ChevronRight, Quote } from 'lucide-react';
 import Seo from '../components/Seo';
 
@@ -47,10 +47,18 @@ const Home: React.FC = () => {
           <p className="text-stone-700 font-sans text-lg md:text-xl font-light mb-12 max-w-2xl mx-auto">
             Your Journey, Your Skin, Our Expertise. Experience the ultimate in personalized care.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col gap-4 items-center">
+            <a
+              href={SOCIAL_LINKS.vagaro}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-auto px-8 py-3 bg-stone-900 text-white font-sans uppercase tracking-widest text-sm hover:bg-gold-500 transition-colors duration-300 shadow-lg text-center"
+            >
+              Book A Visit
+            </a>
             <Link 
               to="/services" 
-              className="px-8 py-3 bg-stone-900 text-white font-sans uppercase tracking-widest text-sm hover:bg-gold-500 transition-colors duration-300 shadow-lg"
+              className="w-full sm:w-auto px-8 py-3 border border-stone-900 text-stone-900 font-sans uppercase tracking-widest text-sm hover:border-gold-500 hover:bg-gold-500 hover:text-white transition-colors duration-300 shadow-lg text-center"
             >
               View Services
             </Link>
